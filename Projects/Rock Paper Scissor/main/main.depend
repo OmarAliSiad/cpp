@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1695666862 source:d:\cpp\projects\rock paper scissor\main\main.cpp
+	<iostream>
+	<ctime>
+	<conio.h>
+
