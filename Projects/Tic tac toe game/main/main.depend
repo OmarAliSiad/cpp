@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1695655242 source:d:\cpp\projects\tic tac toe game\main\main.cpp
+	<iostream>
+	<ctime>
+
