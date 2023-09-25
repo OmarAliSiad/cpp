@@ -13,7 +13,7 @@ void arithmetic(){
 	cout<<"[2] Substraction\n";
 	cout<<"[3] Product\n";
 	cout<<"[4] Division\n";
-    cout<<"Enter Your Choice : ";
+        cout<<"Enter Your Choice : ";
 	cin>>op;
 	cout<<"Enter the number : ";
 	cin>>A;
@@ -46,7 +46,7 @@ void arithmetic(){
 void trignometric(){
 	int op = 0;
 	float val = 0.0;
-    cout<<"Select\n";
+        cout<<"Select\n";
 	cout<<"[1] Sine\n";
 	cout<<"[2] Cosine\n";
 	cout<<"The values in rad \n";
