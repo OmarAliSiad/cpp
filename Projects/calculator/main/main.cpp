@@ -87,49 +87,48 @@ void Advanc_cal()
     cout<<"------------------------"<<endl;
     cout<<"Advanced Calculator\n";
     cout<<"[1] Arithmetic\n";
-	cout<<"[2] Trignometric\n";
-	cout<<"[3] Exponential\n";
-	cout<<"[4] Logarithmic\n";
-	cout<<"------------------------"<<endl;
-	cout<<"Your choice:\n";
-
+    cout<<"[2] Trignometric\n";
+    cout<<"[3] Exponential\n";
+    cout<<"[4] Logarithmic\n";
+    cout<<"------------------------"<<endl;
+    cout<<"Your choice:\n";
 }
 int main(){
 	int sel = 0;
 	char choice = 'y';
-    Advanc_cal();
-    bool t=true;
+        Advanc_cal();
+        bool t=true;
 	while(choice == 'y'){
         if(t!=true)
         {
             Advanc_cal();
         }
-		cout<<"Enter the type of operation you want to calculate\n";
-		cin>>sel;
+	cout<<"Enter the type of operation you want to calculate\n";
+	cin>>sel;
 
-		switch(sel){
-			case 1:
-				arithmetic();
-				break;
-			case 2:
-				trignometric();
-				break;
-			case 3:
-				exponential();
-				break;
-			case 4:
-				logarithmic();
-				break;
-			default:
-				cout<<"Invalid Operation";
-		}
-
-		cout<<"Do you want to continue? Enter 'y' else Enter 'n' "<<endl;
-		cin>>choice;
-		if(choice == 'n'){
+	switch(sel){
+		case 1:
+			arithmetic();
 			break;
-		}
-		else
+		case 2:
+			trignometric();
+			break;
+		case 3:
+			exponential();
+			break;
+		case 4:
+			logarithmic();
+			break;
+		default:
+			cout<<"Invalid Operation";
+	}
+
+	cout<<"Do you want to continue? Enter 'y' else Enter 'n' "<<endl;
+	cin>>choice;
+	if(choice == 'n'){
+		break;
+	}
+	else
         {
             t=false;
         }
