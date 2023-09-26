@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1695760666 source:d:\cpp\projects\atm\main\main.cpp
+	<iostream>
+	<ctime>
+	<stdlib.h>
+
