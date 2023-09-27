@@ -22,7 +22,7 @@ int main()
         Draw();
         Input();
         Logic();
-        Sleep(45); //sleep(10);
+        Sleep(45); 
     }
     return 0;
 }
