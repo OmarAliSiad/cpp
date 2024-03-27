@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1695583219 source:d:\cpp\projects\moive-ticket-magment-system\main\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<fstream>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+
