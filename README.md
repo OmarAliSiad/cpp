@@ -1,5 +1,5 @@
-#Projects in cpp
-##Projects
+# Projects in cpp course 
+## Projects:
 1. ATM
 2. calculator
 3. Moive-Ticket-magment-system
@@ -9,3 +9,4 @@
 7. Simple Shop Management System using C++
 8. Snake game
 9. Tic tac toe game
+
